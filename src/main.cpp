@@ -6,7 +6,6 @@
 
 int main(){
 
-    // test
     GLFWwindow* window;
 
     if (!glfwInit()) {
