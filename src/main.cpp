@@ -1,7 +1,5 @@
 #include "config.h"
 
-// glfw = graphics library framework built on top of OpenGL: creates windows with OpenGL context, sets up callbacks, and handles timing/monitors for you
-
 // IMPORTANT NOTE: if a crash occurs and terminal output has red x in circle, but no errors in output, you might be looking at a seg fault
 
 int main(){
