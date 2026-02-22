@@ -1,0 +1,14 @@
+[
+{
+  "directory": "C:/Users/pka24/Desktop/Programming Stuff/C++ Stuff/MyGame/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -I\"C:/Users/pka24/Desktop/Programming Stuff/C++ Stuff/MyGame/dependencies\" -g -o CMakeFiles\\my_game.dir\\src\\main.cpp.obj -c \"C:\\Users\\pka24\\Desktop\\Programming Stuff\\C++ Stuff\\MyGame\\src\\main.cpp\"",
+  "file": "C:\\Users\\pka24\\Desktop\\Programming Stuff\\C++ Stuff\\MyGame\\src\\main.cpp",
+  "output": "CMakeFiles\\my_game.dir\\src\\main.cpp.obj"
+},
+{
+  "directory": "C:/Users/pka24/Desktop/Programming Stuff/C++ Stuff/MyGame/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -I\"C:/Users/pka24/Desktop/Programming Stuff/C++ Stuff/MyGame/dependencies\" -g -o CMakeFiles\\my_game.dir\\src\\glad.c.obj -c \"C:\\Users\\pka24\\Desktop\\Programming Stuff\\C++ Stuff\\MyGame\\src\\glad.c\"",
+  "file": "C:\\Users\\pka24\\Desktop\\Programming Stuff\\C++ Stuff\\MyGame\\src\\glad.c",
+  "output": "CMakeFiles\\my_game.dir\\src\\glad.c.obj"
+}
+]

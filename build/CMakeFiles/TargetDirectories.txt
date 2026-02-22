@@ -1,0 +1,3 @@
+C:/Users/pka24/Desktop/Programming Stuff/C++ Stuff/MyGame/build/CMakeFiles/my_game.dir
+C:/Users/pka24/Desktop/Programming Stuff/C++ Stuff/MyGame/build/CMakeFiles/edit_cache.dir
+C:/Users/pka24/Desktop/Programming Stuff/C++ Stuff/MyGame/build/CMakeFiles/rebuild_cache.dir

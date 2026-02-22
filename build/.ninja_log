@@ -1,0 +1,8 @@
+# ninja log v7
+30	378	7935009476247456	CMakeFiles/my_game.dir/src/main.cpp.obj	f095ac35812570c8
+21	32	7934982272990800	clean	4b7a9ec6ee23bafa
+848	982	7935009484429323	my_game.exe	e02642189e7621b9
+35	848	7935009476297376	CMakeFiles/my_game.dir/src/glad.c.obj	a290ac816b3ad228
+19	401	7935013355116947	CMakeFiles/my_game.dir/src/main.cpp.obj	f095ac35812570c8
+26	926	7935013355187405	CMakeFiles/my_game.dir/src/glad.c.obj	a290ac816b3ad228
+926	1066	7935013364182006	my_game.exe	e02642189e7621b9
