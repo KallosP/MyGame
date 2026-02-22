@@ -10,5 +10,11 @@
   "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -I\"C:/Users/pka24/Desktop/Programming Stuff/C++ Stuff/MyGame/dependencies\" -g -o CMakeFiles\\my_game.dir\\src\\glad.c.obj -c \"C:\\Users\\pka24\\Desktop\\Programming Stuff\\C++ Stuff\\MyGame\\src\\glad.c\"",
   "file": "C:\\Users\\pka24\\Desktop\\Programming Stuff\\C++ Stuff\\MyGame\\src\\glad.c",
   "output": "CMakeFiles\\my_game.dir\\src\\glad.c.obj"
+},
+{
+  "directory": "C:/Users/pka24/Desktop/Programming Stuff/C++ Stuff/MyGame/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -I\"C:/Users/pka24/Desktop/Programming Stuff/C++ Stuff/MyGame/dependencies\" -g -o CMakeFiles\\my_game.dir\\src\\triangle_mesh.cpp.obj -c \"C:\\Users\\pka24\\Desktop\\Programming Stuff\\C++ Stuff\\MyGame\\src\\triangle_mesh.cpp\"",
+  "file": "C:\\Users\\pka24\\Desktop\\Programming Stuff\\C++ Stuff\\MyGame\\src\\triangle_mesh.cpp",
+  "output": "CMakeFiles\\my_game.dir\\src\\triangle_mesh.cpp.obj"
 }
 ]

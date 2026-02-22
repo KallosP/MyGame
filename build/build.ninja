@@ -63,6 +63,13 @@ build CMakeFiles/my_game.dir/src/glad.c.obj: C_COMPILER__my_game_unscanned_Debug
   OBJECT_DIR = CMakeFiles\my_game.dir
   OBJECT_FILE_DIR = CMakeFiles\my_game.dir\src
 
+build CMakeFiles/my_game.dir/src/triangle_mesh.cpp.obj: CXX_COMPILER__my_game_unscanned_Debug C$:/Users/pka24/Desktop/Programming$ Stuff/C++$ Stuff/MyGame/src/triangle_mesh.cpp || cmake_object_order_depends_target_my_game
+  DEP_FILE = CMakeFiles\my_game.dir\src\triangle_mesh.cpp.obj.d
+  FLAGS = -g
+  INCLUDES = -I"C:/Users/pka24/Desktop/Programming Stuff/C++ Stuff/MyGame/dependencies"
+  OBJECT_DIR = CMakeFiles\my_game.dir
+  OBJECT_FILE_DIR = CMakeFiles\my_game.dir\src
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target my_game
@@ -71,7 +78,7 @@ build CMakeFiles/my_game.dir/src/glad.c.obj: C_COMPILER__my_game_unscanned_Debug
 #############################################
 # Link the executable my_game.exe
 
-build my_game.exe: CXX_EXECUTABLE_LINKER__my_game_Debug CMakeFiles/my_game.dir/src/main.cpp.obj CMakeFiles/my_game.dir/src/glad.c.obj
+build my_game.exe: CXX_EXECUTABLE_LINKER__my_game_Debug CMakeFiles/my_game.dir/src/main.cpp.obj CMakeFiles/my_game.dir/src/glad.c.obj CMakeFiles/my_game.dir/src/triangle_mesh.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lglfw3  -lopengl32  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\my_game.dir
