@@ -1,4 +1,5 @@
 #pragma once
+#include <vector>
 
 class TriangleMesh {
 public:
@@ -7,5 +8,6 @@ void draw();
 ~TriangleMesh();
 
 private:
-unsigned int VBO, VAO, vertex_count;
+unsigned int EBO, VAO, element_count; // EBO = element buffer object (stores what we want to draw)
+std::vector<unsigned int> VBOs;
 };

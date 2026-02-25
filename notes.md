@@ -6,3 +6,22 @@
 - rasturizer interpolates all attributes: position, color, etc (draws the line between points)
 - shader module = a part of the shader program
 - **most objects in OpenGL are written as unsigned integers**
+- points on the screen
+  - follow the format x, y, z, r, g, b
+  - y-axis: 
+    - 0 = center of screen
+    - 1 = top of screen
+    - -1 = bottom of screen
+  - x-axis:
+    - 0 = center of screen
+    - 1 = right of screen
+    - -1 = left of screen
+  - NOTE: This method of putting points on the screen is known as **NDC = normalized device coordinates**
+- In OpenGL, **attribute = a set of 1 to 4 numbers describing something (e.g. x,y,z define position; r,g,b define color)**
+- In OpenGL, **vertex = a collection of attributes needed to draw a point (e.g. x,y,z,r,g,b all together are a vertex)**
+- buffer = a big list of data
+- interleaving (i.e. tightly linked) attributes is best for performance 
+    - sometimes that isn't possible (e.g. w/ heterogenous data), so they must be separated into their own data structures
+- hetergenous data = data w/ different data types
+- homogenous data = data w/ the same data type
+- the txt files that have what looks like C/C++ code are GLSL (OpenGL shading language)
