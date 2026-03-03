@@ -4,9 +4,10 @@
     - built on top of OpenGL
     - creates windows with OpenGL context, sets up callbacks, and handles timing/monitors for you
 - rasturizer interpolates all attributes: position, color, etc (draws the line between points)
+- shader = a small program that runs on the GPU that controls how things are drawn to the screen
 - shader module = a part of the shader program
 - **most objects in OpenGL are written as unsigned integers**
-- points on the screen
+- (**Screen coordinates**) points on the screen
   - follow the format x, y, z, r, g, b
   - y-axis: 
     - 0 = center of screen
@@ -17,6 +18,13 @@
     - 1 = right of screen
     - -1 = left of screen
   - NOTE: This method of putting points on the screen is known as **NDC = normalized device coordinates**
+- **Texture Coordinates**
+  - y-axis:
+    - 0 = bottom of screen
+    - 1 = top of screen
+  - x-axis:
+    - 0 = left of screen
+    - 1 = right of screen
 - In OpenGL, **attribute = a set of 1 to 4 numbers describing something (e.g. x,y,z define position; r,g,b define color)**
 - In OpenGL, **vertex = a collection of attributes needed to draw a point (e.g. x,y,z,r,g,b all together are a vertex)**
 - buffer = a big list of data
@@ -25,3 +33,18 @@
 - hetergenous data = data w/ different data types
 - homogenous data = data w/ the same data type
 - the txt files that have what looks like C/C++ code are GLSL (OpenGL shading language)
+- binding a texture = tells the GPU which texture object to use for upcoming rendering operations
+  - can be thought of as plugging something in:
+    - You have multiple textures
+    - Binding one is like plugging it into the "texture slot"
+    - The GPU will use whatever is currently plugged in
+- mipmap
+  - repeatadly downsamples image to smaller and smaller copies, so that when the image is farther (i.e. smaller in screen space) away, the graphics card can select the appropriate downsampled image
+    - reduces aliasing (aka ugly visual artifacts)
+  - makes sure image is correct size depending on where image is drawn on screen
+  - 0 often defines the base mipmap level (e.g. when passing as a parameter)
+- **common to see (u, v) for texture coordinates**
+  - *NOTE: OpenGL uses (S, T)*
+- when images are rarely loaded at a certain size and drawn at that same size
+  - much more common to either shrink the image or increase it's size
+- sampler = tells the GPU how to read a texture (e.g. the rules for reading an image)

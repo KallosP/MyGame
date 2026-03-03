@@ -5,10 +5,12 @@ find_package(OpenGL REQUIRED)
 
 add_executable(my_game 
     src/config.h 
+    src/config.cpp
     src/main.cpp 
     src/glad.c
     src/triangle_mesh.cpp
     src/triangle_mesh.h
+    src/material.cpp
 )
 
 target_include_directories(my_game PRIVATE dependencies) # PRIVATE keyword = only my_game gets to include items from dependencies directory, it's not propogated to targets that link to my_game

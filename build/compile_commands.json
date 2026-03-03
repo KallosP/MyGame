@@ -1,6 +1,12 @@
 [
 {
   "directory": "C:/Users/pka24/Desktop/Programming Stuff/C++ Stuff/MyGame/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -I\"C:/Users/pka24/Desktop/Programming Stuff/C++ Stuff/MyGame/dependencies\" -g -o CMakeFiles\\my_game.dir\\src\\config.cpp.obj -c \"C:\\Users\\pka24\\Desktop\\Programming Stuff\\C++ Stuff\\MyGame\\src\\config.cpp\"",
+  "file": "C:\\Users\\pka24\\Desktop\\Programming Stuff\\C++ Stuff\\MyGame\\src\\config.cpp",
+  "output": "CMakeFiles\\my_game.dir\\src\\config.cpp.obj"
+},
+{
+  "directory": "C:/Users/pka24/Desktop/Programming Stuff/C++ Stuff/MyGame/build",
   "command": "C:\\msys64\\mingw64\\bin\\g++.exe -I\"C:/Users/pka24/Desktop/Programming Stuff/C++ Stuff/MyGame/dependencies\" -g -o CMakeFiles\\my_game.dir\\src\\main.cpp.obj -c \"C:\\Users\\pka24\\Desktop\\Programming Stuff\\C++ Stuff\\MyGame\\src\\main.cpp\"",
   "file": "C:\\Users\\pka24\\Desktop\\Programming Stuff\\C++ Stuff\\MyGame\\src\\main.cpp",
   "output": "CMakeFiles\\my_game.dir\\src\\main.cpp.obj"
@@ -16,5 +22,11 @@
   "command": "C:\\msys64\\mingw64\\bin\\g++.exe -I\"C:/Users/pka24/Desktop/Programming Stuff/C++ Stuff/MyGame/dependencies\" -g -o CMakeFiles\\my_game.dir\\src\\triangle_mesh.cpp.obj -c \"C:\\Users\\pka24\\Desktop\\Programming Stuff\\C++ Stuff\\MyGame\\src\\triangle_mesh.cpp\"",
   "file": "C:\\Users\\pka24\\Desktop\\Programming Stuff\\C++ Stuff\\MyGame\\src\\triangle_mesh.cpp",
   "output": "CMakeFiles\\my_game.dir\\src\\triangle_mesh.cpp.obj"
+},
+{
+  "directory": "C:/Users/pka24/Desktop/Programming Stuff/C++ Stuff/MyGame/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -I\"C:/Users/pka24/Desktop/Programming Stuff/C++ Stuff/MyGame/dependencies\" -g -o CMakeFiles\\my_game.dir\\src\\material.cpp.obj -c \"C:\\Users\\pka24\\Desktop\\Programming Stuff\\C++ Stuff\\MyGame\\src\\material.cpp\"",
+  "file": "C:\\Users\\pka24\\Desktop\\Programming Stuff\\C++ Stuff\\MyGame\\src\\material.cpp",
+  "output": "CMakeFiles\\my_game.dir\\src\\material.cpp.obj"
 }
 ]
