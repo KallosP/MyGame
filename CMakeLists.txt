@@ -11,6 +11,7 @@ add_executable(my_game
     src/triangle_mesh.cpp
     src/triangle_mesh.h
     src/material.cpp
+    #src/linear_algebra.cpp
 )
 
 target_include_directories(my_game PRIVATE dependencies) # PRIVATE keyword = only my_game gets to include items from dependencies directory, it's not propogated to targets that link to my_game

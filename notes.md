@@ -45,6 +45,40 @@
   - 0 often defines the base mipmap level (e.g. when passing as a parameter)
 - **common to see (u, v) for texture coordinates**
   - *NOTE: OpenGL uses (S, T)*
-- when images are rarely loaded at a certain size and drawn at that same size
+- images are rarely loaded at a certain size and drawn at that same size
   - much more common to either shrink the image or increase it's size
 - sampler = tells the GPU how to read a texture (e.g. the rules for reading an image)
+- OpenGL stores matrices in column-major order
+- GLSL
+  - a uniform = a global variable applied to a shader
+  - GLSL has a built-in mat4 keyword (for matrix)
+- Geometric (transformation) matrix = a matrix that stores info about translation, rotation, etc.
+- **Understanding the Camera and it's viewpoint**
+  - **Model Transform (object -> world space)**
+    - Transforms objects into world space 
+    - i.e. objects are positioned/oriented in the world
+    - i.e. the model transform places objects into the world
+  - **View Transform (world -> camera space (camera at origin of the world))**
+    - places the world view in the frame of reference of the camera
+      - i.e. the view transform changes the coordinate system to be based on the camera's POV of the world
+      - i.e. the view transform changes it so that the view is expressed *relative* to the camera's position and orientation
+      - i.e. the view transform re-expresses the world relative to the camera
+    - the camera is **NOT** an object in the world
+  - ***KEY TAKEAWAY:* The view transform is the inverse of the camera's model transform.**  
+    - What the view transform is doing conceptually: It's taking taking all the world's coordinate (this includes any objects in the world (b/c they're also positioned at coordinates)) and re-expressing them in such a way that it places the camera at the origin of the world, facing forward
+- Camera
+  - eye = the camera's position
+  - the vectors that define the camera's coordinates include:
+    - u = up vector
+      - j' = image of the y-axis
+    - r = right vector = i'
+      - i' = image of the x-axis
+    - f = forwards vector
+      - k' = image of the z-axis
+- Linear Algebra
+  - normalizing a vector = converting a vector into a unit vector that has the same direction of the original vector but a magnitude (size) of 1
+  - unit vector = a vector with a magnitude of exactly one
+    - used to indicate direction without regard to size
+- OpenGL Functions Clarification
+  - glUniformMatrix4fv 
+    - all this function is doing is **taking the matrix that you define in your code (on the CPU) and transferring it to the GPU** by storing it into a mat4 variable you define in the GLSL code in your shader program (e.g. vertex shader, fragment shader)
